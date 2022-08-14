@@ -579,9 +579,9 @@ function Home() {
           !wallet.connected && (
             <div
               className={`mx-5 mb-5 cursor-pointer rounded-md border-[1px]  p-4 text-center text-lg font-semibold ${stakePoolMetadata?.colors?.accent &&
-                  stakePoolMetadata?.colors.fontColor
-                  ? ''
-                  : 'border-yellow-500 bg-yellow-500 bg-opacity-40'
+                stakePoolMetadata?.colors.fontColor
+                ? ''
+                : 'border-yellow-500 bg-yellow-500 bg-opacity-40'
                 }`}
               style={
                 stakePoolMetadata?.colors?.accent &&
@@ -602,8 +602,8 @@ function Home() {
         {(maxStaked || rewardDistributorData) && !stakePoolMetadata?.notFound && (
           <div
             className={`mx-5 mb-4 flex flex-wrap items-center gap-4 rounded-md px-10 py-6  md:flex-row md:justify-between ${stakePoolMetadata?.colors?.fontColor
-                ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
-                : 'text-gray-200'
+              ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
+              : 'text-gray-200'
               } ${stakePoolMetadata?.colors?.backgroundSecondary
                 ? `bg-[${stakePoolMetadata?.colors?.backgroundSecondary}]`
                 : 'bg-white bg-opacity-5'
@@ -640,8 +640,8 @@ function Home() {
               <div className="relative flex h-8 flex-grow items-center justify-center">
                 <span
                   className={`${stakePoolMetadata?.colors?.fontColor
-                      ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
-                      : 'text-gray-500'
+                    ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
+                    : 'text-gray-500'
                     }`}
                 >
                   Loading pool info...
@@ -662,23 +662,7 @@ function Home() {
                       // max of 5 decimals
                       Math.min(rewardMintInfo.data.mintInfo.decimals, 5)
                     )}{' '}
-                    <a
-                      className="underline"
-                      style={{
-                        color: stakePoolMetadata?.colors?.fontColor
-                          ? stakePoolMetadata?.colors?.fontColor
-                          : 'white',
-                      }}
-                      target="_blank"
-                      href={pubKeyUrl(
-                        rewardDistributorData.data.parsed.rewardMint,
-                        environment.label
-                      )}
-                    >
-                      {rewardMintInfo.data.tokenListData?.name ||
-                        rewardMintInfo.data.metaplexMintData?.data.name ||
-                        '???'}
-                    </a>{' '}
+                    BRAWL
                     / Day
                   </span>
                 </div>
@@ -698,9 +682,7 @@ function Home() {
                             rewards.data?.claimableRewards,
                             6
                           )}{' '}
-                          {rewardMintInfo.data.tokenListData?.name ||
-                            rewardMintInfo.data.metaplexMintData?.data.name ||
-                            '???'}
+                          BRAWL
                         </div>
                         <div className="text-xs text-gray-500">
                           {rewardDistributorData.data.parsed.kind ===
@@ -732,8 +714,8 @@ function Home() {
                     <>
                       <span
                         className={`${stakePoolMetadata?.colors?.fontColor
-                            ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
-                            : 'text-gray-500'
+                          ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
+                          : 'text-gray-500'
                           }`}
                       >
                         Loading rewards...
@@ -750,8 +732,8 @@ function Home() {
           totalStaked && (
             <div
               className={`mx-5 mb-4 flex flex-wrap items-center gap-4 rounded-md px-10 py-6  md:flex-row md:justify-between ${stakePoolMetadata?.colors?.fontColor
-                  ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
-                  : 'text-gray-200'
+                ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
+                : 'text-gray-200'
                 } ${stakePoolMetadata?.colors?.backgroundSecondary
                   ? `bg-[${stakePoolMetadata?.colors?.backgroundSecondary}]`
                   : 'bg-white bg-opacity-5'
@@ -769,8 +751,8 @@ function Home() {
                     <div className="relative flex flex-grow items-center justify-center text-lg">
                       <span
                         className={`${stakePoolMetadata?.colors?.fontColor
-                            ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
-                            : 'text-gray-500'
+                          ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
+                          : 'text-gray-500'
                           }`}
                       >
                         {key}: {(analytics.data![key]! * 100).toFixed(2)} %
@@ -784,8 +766,8 @@ function Home() {
         <div className="my-2 mx-5 grid grid-cols-1 gap-4 md:grid-cols-2">
           <div
             className={`flex-col rounded-md p-10 ${stakePoolMetadata?.colors?.fontColor
-                ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
-                : 'text-gray-200'
+              ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
+              : 'text-gray-200'
               } ${stakePoolMetadata?.colors?.backgroundSecondary
                 ? `bg-[${stakePoolMetadata?.colors?.backgroundSecondary}]`
                 : 'bg-white bg-opacity-5'
@@ -868,8 +850,8 @@ function Home() {
                 ) : (allowedTokenDatas.data || []).length == 0 ? (
                   <p
                     className={`font-normal text-[${stakePoolMetadata?.colors?.fontColor
-                        ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
-                        : 'text-gray-400'
+                      ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
+                      : 'text-gray-400'
                       }]`}
                   >
                     No allowed tokens found in wallet.
@@ -946,8 +928,8 @@ function Home() {
                               />
                               <div
                                 className={`flex-col rounded-b-xl p-2 ${stakePoolMetadata?.colors?.fontColor
-                                    ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
-                                    : 'text-gray-200'
+                                  ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
+                                  : 'text-gray-200'
                                   } ${stakePoolMetadata?.colors?.backgroundSecondary
                                     ? `bg-[${stakePoolMetadata?.colors?.backgroundSecondary}]`
                                     : 'bg-white bg-opacity-10'
@@ -1050,8 +1032,8 @@ function Home() {
                       <span className="sr-only">Receipt Type</span>
                       <span
                         className={`${receiptType === ReceiptType.Original
-                            ? 'translate-x-6'
-                            : 'translate-x-1'
+                          ? 'translate-x-6'
+                          : 'translate-x-1'
                           } inline-block h-4 w-4 transform rounded-full bg-white`}
                       />
                     </Switch>
@@ -1231,8 +1213,8 @@ function Home() {
                 ) : stakedTokenDatas.data?.length === 0 ? (
                   <p
                     className={`font-normal text-[${stakePoolMetadata?.colors?.fontColor
-                        ? ''
-                        : 'text-gray-400'
+                      ? ''
+                      : 'text-gray-400'
                       }]`}
                   >
                     No tokens currently staked.
@@ -1328,8 +1310,8 @@ function Home() {
                                 />
                                 <div
                                   className={`flex-col rounded-b-xl p-2 md:w-40 2xl:w-48 ${stakePoolMetadata?.colors?.fontColor
-                                      ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
-                                      : 'text-gray-200'
+                                    ? `text-[${stakePoolMetadata?.colors?.fontColor}]`
+                                    : 'text-gray-200'
                                     } ${stakePoolMetadata?.colors
                                       ?.backgroundSecondary
                                       ? `bg-[${stakePoolMetadata?.colors?.backgroundSecondary}]`
