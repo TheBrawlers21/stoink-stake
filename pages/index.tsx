@@ -57,7 +57,7 @@ function Home() {
                 (stakePool) =>
                   !stakePool.stakePoolMetadata?.hidden && (
                     <div
-                      className="flex h-[300px] cursor-pointer flex-col rounded-lg  bg-gray-600 bg-opacity-60 p-10 transition-all duration-100 hover:scale-[1.01]"
+                      className="flex h-[300px] cursor-pointer flex-col rounded-lg  bg-white bg-opacity-20 p-10 transition-all duration-100 hover:scale-[1.01]"
                       onClick={() =>
                         router.push(
                           stakePool.stakePoolMetadata?.redirect ??
