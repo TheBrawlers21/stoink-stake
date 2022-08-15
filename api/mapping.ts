@@ -79,7 +79,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     name: 'BRAWL',
     displayName: 'Stake For $BRAWL',
     stakePoolAddress: new PublicKey(
-      'FNBusL1EL7N8zEJgmJ4agqFK7aiYdaLH1KA5iHQVCV4c'
+      'D7b7dwFmqFjjyiuovLXLjVZZBYpjrfGr5RP9c6BUFrhw'
     ),
     websiteUrl: '',
     receiptType: ReceiptType.Original,
