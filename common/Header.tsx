@@ -101,7 +101,7 @@ export const Header = () => {
 
                   />
                 )}{' '}
-                StoinkerDoinker Staking
+                The Brawlers Staking
               </TitleText>
             )}
           </a>
