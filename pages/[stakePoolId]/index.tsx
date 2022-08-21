@@ -539,12 +539,12 @@ function Home() {
       }}
     >
       <Head>
-        <title>StoinkerDoinker Staking</title>
-        <meta name="description" content="StoinkerDoinker Staking" />
+        <title>The Brawlers Staking</title>
+        <meta name="description" content="The Brawlers Staking" />
         <link rel="icon" href="/favicon.ico" />
         <script
           defer
-          data-domain="stake.StoinkerDoinker.com"
+          data-domain="stake.thebrawlers.xyz"
           src="https://plausible.io/js/plausible.js"
         ></script>
       </Head>
