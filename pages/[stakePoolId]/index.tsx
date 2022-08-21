@@ -620,7 +620,7 @@ function Home() {
                 <div className="inline-block text-lg">
                   Total Staked: {Number(totalStaked).toLocaleString()}{' '}
                   {stakePoolMetadata?.maxStaked
-                    ? `/ ${stakePoolMetadata?.maxStaked.toLocaleString()}`
+                    ? `/ 1555`
                     : ''}
                 </div>
                 {maxStaked > 0 && (
