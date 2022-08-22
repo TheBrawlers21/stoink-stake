@@ -85,7 +85,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     receiptType: ReceiptType.Original,
     imageUrl:
       'https://fhnc6hufmcqk2kcqpercbg2ui3z4qdlu4zggqje3anzvlony.arweave.net/KdovHoVgo-K0oUHkiIJt-URvPIDXTmTGgkmwNzVb-m4',
-    maxStaked: 1555,
+    maxStaked: 800,
     backgroundImage: 
       'https://2m3nw65fm6c33yb6rdeyfpmo2b5aq6ytgnqxhxbfs5sivbyy4m.arweave.net/0zbbe6Vnhb3gPojJgr2O0HoIexMzY-XPcJZdkiocY44',
     tokenStandard: TokenStandard.NonFungible,
